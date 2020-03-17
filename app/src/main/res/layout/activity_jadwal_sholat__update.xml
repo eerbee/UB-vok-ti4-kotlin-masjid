@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JadwalSholat_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JADWAL SHOLAT "
+        android:textColor="#000000"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_updatejadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:text="Update"
+            app:layout_constraintEnd_toEndOf="@+id/input_isya"
+            app:layout_constraintStart_toStartOf="@+id/input_isya"
+            app:layout_constraintTop_toBottomOf="@+id/input_isya" />
+
+        <EditText
+            android:id="@+id/input_shubuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:ems="10"
+            android:hint="Sholat Shubuh"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/input_dhuha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:hint="Sholat Dhuha"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/input_shubuh"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/input_shubuh"
+            app:layout_constraintTop_toBottomOf="@+id/input_shubuh" />
+
+        <EditText
+            android:id="@+id/input_dhuhur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:hint="Sholat Dhuhur"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/input_dhuha"
+            app:layout_constraintStart_toStartOf="@+id/input_dhuha"
+            app:layout_constraintTop_toBottomOf="@+id/input_dhuha" />
+
+        <EditText
+            android:id="@+id/input_ashar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:hint="Sholat Ashar"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/input_dhuhur"
+            app:layout_constraintStart_toStartOf="@+id/input_dhuhur"
+            app:layout_constraintTop_toBottomOf="@+id/input_dhuhur" />
+
+        <EditText
+            android:id="@+id/input_maghrib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:hint="Sholat Maghrib"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/input_ashar"
+            app:layout_constraintStart_toStartOf="@+id/input_ashar"
+            app:layout_constraintTop_toBottomOf="@+id/input_ashar" />
+
+        <EditText
+            android:id="@+id/input_isya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:hint="Sholat Isya"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/input_maghrib"
+            app:layout_constraintStart_toStartOf="@+id/input_maghrib"
+            app:layout_constraintTop_toBottomOf="@+id/input_maghrib" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
