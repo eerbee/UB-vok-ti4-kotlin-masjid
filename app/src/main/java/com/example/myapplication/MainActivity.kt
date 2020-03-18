@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     fun postkerserver(data1:String,data2:String)
     {
-        AndroidNetworking.post("http://192.168.100.63/masjid/ceklogin.php")
+        AndroidNetworking.post("http://192.168.137.1/masjid/ceklogin.php")
             .addBodyParameter("username", data1)
             .addBodyParameter("password", data2)
             .setPriority(Priority.MEDIUM)

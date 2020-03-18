@@ -32,7 +32,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="8dp">
+                    android:padding="8dp"
+                    android:background="@drawable/bg_1">
 
                     <TextView
                         android:id="@+id/judul_pulau"
@@ -40,19 +41,20 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:text="Identitas Masjid"
-                        android:textColor="#000000"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                         />
 
                     <TextView
                         android:id="@+id/caption_pulau"
                         android:layout_width="239dp"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/judul_pulau"
-                        android:layout_marginTop="37dp"
+                        android:layout_marginTop="35dp"
                         android:text="Managemen informasi mengenai nama dan lokasi masjid"
-                        android:textColor="#000000"
-                        android:textStyle="normal" />
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -67,7 +69,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="8dp">
+                    android:padding="8dp"
+                    android:background="@drawable/bg_5">
 
                     <TextView
                         android:id="@+id/judul_pilgan"
@@ -75,9 +78,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:text="Jadwal Sholat"
-                        android:textColor="#000000"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="18dp" />
 
                     <TextView
                         android:id="@+id/caption_pilgan"
@@ -86,8 +89,8 @@
                         android:layout_below="@id/judul_pilgan"
                         android:layout_marginTop="37dp"
                         android:text="Manajemen informasi mengenai jadwal sholat 5 waktu"
-                        android:textColor="#000000"
-                        android:textStyle="normal" />
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"/>
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -102,7 +105,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="8dp">
+                    android:padding="8dp"
+                    android:background="@drawable/bg_6">
 
                     <TextView
                         android:id="@+id/judul_daerah"
@@ -110,9 +114,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:text="Pengumuman Masjid"
-                        android:textColor="#000000"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
+                        android:textSize="18dp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/caption_daerah"
@@ -121,8 +125,8 @@
                         android:layout_below="@id/judul_daerah"
                         android:layout_marginTop="37dp"
                         android:text="Manajemen infromasi terhadap pengumuman masjid"
-                        android:textColor="#000000"
-                        android:textStyle="normal" />
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -137,7 +141,8 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="8dp">
+                    android:padding="8dp"
+                    android:background="@drawable/bg_7">
 
                     <TextView
                         android:id="@+id/judul_lagu"
@@ -145,9 +150,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
                         android:text="Marquee Masjid"
-                        android:textColor="#000000"
-                        android:textSize="16dp"
-                        android:textStyle="bold" />
+                        android:textSize="18dp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/caption_lagu"
@@ -156,8 +161,8 @@
                         android:layout_below="@id/judul_lagu"
                         android:layout_marginTop="37dp"
                         android:text="Manajemen informasi mengenai marquee pada masjid"
-                        android:textColor="#000000"
-                        android:textStyle="normal" />
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
