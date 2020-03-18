@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
+            android:usesCleartextTraffic="true">
         <activity android:name=".JadwalSholat_Update_Activity"></activity>
         <activity android:name=".MarqueeMasjid_Activity" />
         <activity android:name=".PengumumanMasjid_Activity" />
