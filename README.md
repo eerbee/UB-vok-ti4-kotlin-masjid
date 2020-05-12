@@ -1,3 +1,8 @@
-# kotlin-masjid
+# Mobile Programming Terapan - Penugasan
 183140714111026 - Harsya Rahadhani <br>
-Mobile Programming Terapan - Penugasan
+Before UTS : <br>
+- Mahasiswa <br>
+- Masjid  <br>
+
+After UTS : <br>
+- Floating Button, Bottom Sheets, & Progress Bar
