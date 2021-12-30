@@ -1,4 +1,4 @@
-# Mobile Programming Terapan
+# Mobile Programming Terapan (Android Kotlin)
 183140714111026 - Harsya Rahadhani <br>
 Before UTS : <br>
 - Mahasiswa <br>
