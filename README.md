@@ -1,4 +1,4 @@
-# Mobile Programming Terapan - Penugasan
+# Mobile Programming Terapan using Android Kotling
 183140714111026 - Harsya Rahadhani <br>
 Before UTS : <br>
 - Mahasiswa <br>
